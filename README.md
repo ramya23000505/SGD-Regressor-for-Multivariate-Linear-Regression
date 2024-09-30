@@ -25,6 +25,8 @@ Step 7: Inverse transform predictions and evaluate the model using the mean squa
 Step 6:Stop the program.
 
 ## Program:
+```
+/*
 Program to implement the multivariate linear regression model for predicting the price of the house and number of occupants in
 the house with SGD regressor.
 
@@ -32,7 +34,6 @@ Developed by: RAMYA R
 
 RegisterNumber:  212223230169
 
-```
   import numpy as np
   from sklearn.datasets import fetch_california_housing
   from sklearn.linear_model import SGDRegressor
@@ -79,7 +80,7 @@ RegisterNumber:  212223230169
 
   #optionally print some predictions
   print("\npredictions:\n",y_pred[:5])
-
+*/
 ```
 
 ## Output:
